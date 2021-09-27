@@ -95,6 +95,7 @@ def jksb():
 def inform_result():
     try:
         send_result(jksb())
+        driver.get_screenshot_as_file(os.getcwd()+"//success.png")
         driver.quit()
     except Exception as e:
         driver.get_screenshot_as_file(os.getcwd()+"//error.png")
