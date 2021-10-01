@@ -20,6 +20,7 @@
 ## 启动项目
 
 ### 安装依赖
+
 python 3 环境下
 pip install -r requirements.txt
 
@@ -27,6 +28,7 @@ pip install -r requirements.txt
 window,linux平台的driver已内置
 
 [其他平台driver下载](https://github.com/mozilla/geckodriver/releases)
+
 ### 初始化配置
 
 1. 在config.json中配置登录名 密码 wxsend_key
@@ -41,8 +43,11 @@ window,linux平台的driver已内置
 
 ### 平台化
 
-可以选择开发个简单的网站，用户提交账号密码，即可托管健康打卡，无需本地部署。但netid密码属于敏感信息，传输存储难免有安全性问题，暂时没有特别好的解决方案，建议个人私有化部署。建议个人私有化部署。感谢@[QuinV33](https://github.com/QuinV33)提供了doker镜像，支持一键部署[QuinV33: JKSB_docker，将jksb自动化脚本部署到容器中，实现只填写配置文件就可以直接自动申报 ](https://github.com/QuinV33/jksb_sysu_docker)
+感謝[@Editi0](https://github.com/Editi0),提供了新思路，结合 GitHub Actions 定时运行实现每天自动打卡，不需要服务器，仓库地址[SYSU Health Report](https://github.com/marketplace/actions/sysu-health-report) 
+
+感谢@[QuinV33](https://github.com/QuinV33)提供了doker镜像，支持一键部署[QuinV33: JKSB_docker，将jksb自动化脚本部署到容器中，实现只填写配置文件就可以直接自动申报 ](https://github.com/QuinV33/jksb_sysu_docker)
 
 ## 免责声明
 
 此脚本仅供学习交流，禁止商业使用，使用软件过程中，发生意外造成的损失由使用者承担。如遇身体不适、或居住地址发生变化，请及时更新健康申报信息。
+
