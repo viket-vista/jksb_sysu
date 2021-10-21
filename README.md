@@ -1,6 +1,6 @@
 # jksb_sysu
 
-中山大学健康申报自动化脚本，支持定时运行和失败重试，打卡结果email通知，此脚本仅供学习交流，禁止商业使用，使用软件过程中，发生意外造成的损失由使用者承担。如遇身体不适、或居住地址发生变化，请及时更新健康申报信息，向学校说明情况。
+中山大学健康申报自动化脚本，支持定时运行和失败重试，打卡结果email通知，此脚本仅供学习交流，禁止商业使用。使用软件过程中，发生意外造成的损失由使用者承担。如遇身体不适、或居住地址发生变化，请及时更新健康申报信息，向学校说明情况。
 
 ## 技术方案
 
@@ -45,7 +45,7 @@ window,linux平台的driver已内置
 
 感謝[@Editi0](https://github.com/Editi0)，提供了新思路，结合 GitHub Actions，无需服务器，简单配置后，即可定时运行实现每天自动打卡，项目地址[SYSU Health Report](https://github.com/marketplace/actions/sysu-health-report) 
 
-感谢@[QuinV33](https://github.com/QuinV33)提供了doker镜像，支持一键部署[QuinV33: JKSB_docker，将jksb自动化脚本部署到容器中，实现只填写配置文件就可以直接自动申报 ](https://github.com/QuinV33/jksb_sysu_docker)
+[@QuinV33](https://github.com/QuinV33)提供了doker镜像，支持一键部署[QuinV33: JKSB_docker，将jksb自动化脚本部署到容器中，实现只填写配置文件就可以直接自动申报 ](https://github.com/QuinV33/jksb_sysu_docker)
 
 ## 免责声明
 
