@@ -45,7 +45,6 @@ window,linux平台的driver已内置
 
 [@Editi0](https://github.com/Editi0)，提供了新思路，结合 GitHub Actions，无需服务器，简单配置后，即可定时运行实现每天自动打卡，项目地址[SYSU Health Report](https://github.com/marketplace/actions/sysu-health-report) 
 
-[@QuinV33](https://github.com/QuinV33)提供了doker镜像，支持一键部署[QuinV33: JKSB_docker，将jksb自动化脚本部署到容器中，实现只填写配置文件就可以直接自动申报 ](https://github.com/QuinV33/jksb_sysu_docker)
 
 ## 免责声明
 
