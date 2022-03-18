@@ -6,7 +6,7 @@ from selenium.webdriver.firefox.options import Options
 import os
 import ddddocr
 import time
-from util import get_img,read_json
+from util import read_json
 from apscheduler.schedulers.blocking import BlockingScheduler
 from retrying import retry
 import platform
@@ -54,9 +54,11 @@ def jksb():
     log.get_logger().info("识别验证码")
     code = get_img(ocr,driver)
     step = 3 #识别验证码成功
-
-    log.get_logger().info("输入验证码")
-    driver.find_element_by_xpath('//*[@id="captcha"]').send_keys(code)
+    
+    log.get_logger().info("识别验证码")
+    img = driver.find_element_by_id("captchaImg")
+    data = img.screenshot_as_png
+    res = ocr.classification(data)
     step = 4 #输入验证码成功
 
     # 点击登录按钮
